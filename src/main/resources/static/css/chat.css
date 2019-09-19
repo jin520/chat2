@@ -1,0 +1,33 @@
+.message{
+    margin: 5px 5px 5px 2em;
+    background: #fff;
+    color: #000;
+    padding: 10px;
+    border-radius:0 10px 10px 10px;
+    display: inline-block;
+}
+body{
+	background:#333;
+	color:#666;
+}
+.messageBox{
+    background: #f9f9f9;
+    padding: 0px 50px;
+    
+    height: 500px;
+
+    overflow:auto;
+    /*隐藏滚动条*/
+    -ms-overflow-style: none; /* IE 10+ */
+    scrollbar-width: none; /*firefox */
+}
+/*隐藏滚动条 safair 和 chrome*/
+.messageBox::-webkit-scrollbar {
+    display: none;
+}
+.nicknameTextBox{
+	color:#000;
+	border:none;
+	border-radius: 5px;
+	padding:5px;
+}
